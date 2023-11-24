@@ -33,6 +33,10 @@ class IAPItem {
   /// android only
   final String? signatureAndroid;
   final List<SubscriptionOfferAndroid>? subscriptionOffersAndroid;
+ 
+
+  final String? subscriptionPeriodAndroid;
+
 
   final String? subscriptionPeriodAndroid;
   final String freeTrialPeriodAndroid = "default_value";
