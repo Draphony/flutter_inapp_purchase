@@ -1008,7 +1008,7 @@ void main() {
               arguments: <String, dynamic>{
                 'type': 'inapp',
                 'productId': productId,
-                'prorationMode': -1,
+                'replacementMode': -1,
                 'obfuscatedAccountId': null,
                 'obfuscatedProfileId': null,
                 'purchaseToken': null,
@@ -1068,7 +1068,7 @@ void main() {
               arguments: <String, dynamic>{
                 'type': 'subs',
                 'productId': productId,
-                'prorationMode': -1,
+                'replacementMode': -1,
                 'obfuscatedAccountId': null,
                 'obfuscatedProfileId': null,
                 'purchaseToken': null,
@@ -1411,7 +1411,6 @@ void main() {
       });
     });
     group('checkSubscribed', () {
-      // FIXME
       // This method can't be tested, because this method calls static methods internally.
       // To test, it needs to change static method to non-static method.
     });
